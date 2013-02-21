@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResizeDialog</class>
+ <widget class="QDialog" name="ResizeDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1239</width>
+    <height>820</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ResizeDialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1221</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="OriginalImageLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="ScaleButton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>790</y>
+     <width>97</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;Scale</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OpenButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>790</y>
+     <width>97</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="widthlabel">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>790</y>
+     <width>64</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Width</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="heightlabel">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>790</y>
+     <width>64</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Height</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxWidth">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>790</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxHeight">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>790</y>
+     <width>91</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>790</y>
+     <width>97</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
