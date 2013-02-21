@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file alias="dip">plasma.png</file>
+    </qresource>
+</RCC>
